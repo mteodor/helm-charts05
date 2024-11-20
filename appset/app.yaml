@@ -7,7 +7,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/mteodor/helm-charts
+        repoURL: https://github.com/mteodor/helm-charts05
         revision: HEAD
         directories:
           - path: charts/*
@@ -17,7 +17,7 @@ spec:
     spec:
       project: 3eb96a4d
       source:
-        repoURL: https://github.com/argoproj/argo-cd.git
+        repoURL: https://github.com/mteodor/helm-charts05
         targetRevision: HEAD
         path: '{{.path.path}}'
       destination:
