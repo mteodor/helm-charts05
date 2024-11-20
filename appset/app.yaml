@@ -22,7 +22,7 @@ spec:
         path: '{{.path.path}}'
       destination:
         name: cluster11
-        namespace: '{{.path.basename}}'
+        namespace: '{{.path.basename}}-01'
       syncPolicy:
         syncOptions:
           - CreateNamespace=true
