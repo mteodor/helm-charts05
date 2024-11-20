@@ -13,7 +13,7 @@ spec:
           - path: charts/*
   template:
     metadata:
-      name: '{{.path.basename}}'
+      name: '{{.path.basename}}-05'
     spec:
       project: 3eb96a4d
       source:
@@ -22,7 +22,7 @@ spec:
         path: '{{.path.path}}'
       destination:
         name: cluster11
-        namespace: '{{.path.basename}}-01'
+        namespace: '{{.path.basename}}-05'
       syncPolicy:
         syncOptions:
           - CreateNamespace=true
